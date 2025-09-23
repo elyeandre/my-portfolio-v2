@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jerickson Mayor</title>
+  <link rel="icon" href="images/favicon.ico" sizes="48x48" type="image/png" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" /></head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">
+      <span class="logo-text">J.M</span>
+    </div>
+    <div class="hamburger" id="hamburger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <nav id="main-nav">
+      <ul id="nav-list">
+        <li><a href="#about-section" class="active"><i class="fa-solid fa-user"></i> About Me</a></li>
+        <li><a href="#skills-section"><i class="fa-solid fa-desktop"></i> Skills</a></li>
+        <li><a href="#projects-section"><i class="fa-solid fa-code"></i> Projects</a></li>
+        <li><a href="#certification-section"><i class="fa-solid fa-certificate"></i> Certification</a></li>
+        <li><a href="#education-section"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+        <li><a href="#connect-section"><i class="fa-solid fa-phone"></i> Connect</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<section id="about-section">
+  <h1>ABOUT ME</h1>
+
+  <div class="about-container">
+    <!-- Profile Image -->
+    <div class="profile-image">
+      <img src="/images/me.jpg" alt="Profile Picture">
+    </div>
+
+    <div class="about-info">
+      <h2 class="about-name">Jerickson Mayor</h2>
+
+      <div class="social-icons">
+        <a href="https://github.com/elyeandre" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+        <a href="https://www.facebook.com/elyeaandre" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+        <a href="mailto:jericksonmayor@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/elyeandre" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+      </div>
+
+      <p>
+        Hi There! 👋, my name is Jerickson Mayor. I am very keen on game development and web development as well. I feel good when I am working on projects that are fun and also very practical in the way that they solve real-world problems. No matter what, I am always ready to get into new things and to find new solutions that are better than the ones I have already made. 🚀
+      </p>
+
+      <div class="button-container">
+        <!--<a href="#" class="download-btn" id="openModalBtn">My CV</a>-->
+        <a href="#" class="downloadresume-btn" id="openModalBtn">My Resume</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+ 
+
+<div id="cvModal" class="modal">
+  <div class="modal-content">
+    <span class="close cv-close">&times;</span>
+    <h2>Request CV</h2>
+    <p>Enter your email to receive the CV:</p>
+    <form action="https://formspree.io/f/mwpqglnn" method="POST" id="cvRequestForm">
+      <input type="email" name="email" id="cvEmailInput" placeholder="you@example.com" required>
+      <textarea name="message" rows="4" placeholder="Optional message (e.g., why you're requesting the CV)"></textarea>
+      <input type="hidden" name="_subject" value="CV Request from Portfolio">
+      <button type="submit" id="cvRequestBtn">Request</button>
+    </form>
+  </div>
+</div>
+
+<div id="resumeModal" class="modal">
+  <div class="modal-content">
+    <span class="close resume-close">&times;</span>
+    <h2>Request Resume</h2>
+    <p>Enter your email to receive the resume:</p>
+    <form action="https://formspree.io/f/mwpqglnn" method="POST" id="resumeRequestForm">
+      <input type="email" name="email" id="resumeEmailInput" placeholder="you@example.com" required>
+      <textarea name="message" rows="4" placeholder="Optional message (e.g., why you're requesting the resume)"></textarea>
+      <input type="hidden" name="_subject" value="Resume Request from Portfolio">
+      <button type="submit" id="resumeRequestBtn">Request</button>
+    </form>
+  </div>
+</div>
+
+<section id="skills-section">
+  <h1>KNOWLEDGE</h1>
+  <div class="skills-grid">
+    <div class="skill-card"><i class="devicon-html5-plain colored"></i> HTML</div>
+    <div class="skill-card"><i class="devicon-css3-plain colored"></i> CSS</div>
+    <div class="skill-card"><i class="devicon-javascript-plain colored"></i> JavaScript</div>
+    <div class="skill-card"><i class="devicon-bootstrap-plain colored"></i> Bootstrap</div>
+    <div class="skill-card"><i class="devicon-java-plain colored"></i> Java</div>
+    <div class="skill-card"><i class="devicon-php-plain colored"></i> PHP</div>
+    <div class="skill-card"><i class="devicon-csharp-plain colored"></i> C#</div>
+    <div class="skill-card"><i class="devicon-sqlite-plain colored"></i> SQLite</div>
+    <div class="skill-card"><i class="devicon-github-original"></i> GitHub</div>
+    <div class="skill-card"><img src="images/xampp.png" class="icon-img" alt="XAMPP"> XAMPP</div>
+    <div class="skill-card"><i class="devicon-firebase-plain colored"></i> Firebase</div>
+    <div class="skill-card"><i class="devicon-mongodb-plain colored"></i> MongoDB</div>
+    <div class="skill-card"><i class="devicon-visualstudio-plain colored"></i> Visual Studio</div>
+    <div class="skill-card"><i class="devicon-vscode-plain colored"></i> VS Code</div>
+    <div class="skill-card"><i class="devicon-androidstudio-plain colored"></i> Android Studio</div>
+    <div class="skill-card"><img src="images/canva.png" class="icon-img" alt="Canva"> Canva</div>
+    <div class="skill-card"><i class="devicon-figma-plain colored"></i> Figma</div>
+    <div class="skill-card"><img src="images/adobe.png" class="icon-img" alt="Adobe"> Adobe Photoshop</div>
+    <div class="skill-card"><i class="devicon-linux-plain "></i> Linux</div>
+    <div class="skill-card"><i class="devicon-docker-plain colored"></i> Docker</div>
+    <div class="skill-card"><i class="devicon-vim-plain colored" class="icon-img" alt="Vim"></i> Vim</div>
+    <div class="skill-card"><i class="devicon-go-plain colored"></i> Go</div>
+    <div class="skill-card"><i class="devicon-typescript-plain colored"></i> TypeScript</div>
+    <div class="skill-card"><i class="devicon-nodejs-plain colored"></i> Node.js</div>
+    <div class="skill-card"><i class="devicon-react-original colored"></i> React</div>
+    <div class="skill-card"><i class="devicon-tailwindcss-plain colored"></i> Tailwind CSS</div>
+    <div class="skill-card"><img src="images/cordova.svg" class="icon-img" alt="Cordova"> Cordova</div>
+    <div class="skill-card"><i class="devicon-webpack-plain colored"></i> Webpack</div>
+    <div class="skill-card"><i class="devicon-googlecloud-plain colored"></i> Google Cloud</div>
+    <div class="skill-card"><i class="devicon-amazonwebservices-plain-wordmark colored"></i> AWS</div>
+    <div class="skill-card"><i class="devicon-cloudflare-plain colored"></i> Cloudflare</div>
+    <div class="skill-card"><i class="fas fa-paper-plane"></i> Postman</div>
+  </div>
+</section>
+
+<section id="projects-section" class="projects-section">
+  <h1>PROJECTS</h1>
+  <div class="projects-grid">
+
+    <!-- Project: Bataan Badminton Management Portal (Full-Stack Capstone) -->
+    <div class="project-card">
+      <div class="project-carousel">
+        <div class="carousel-container">
+          <div class="carousel-slide active">
+            <img src="images/badminton-001.png" alt="Badminton Portal Screenshot 1">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/badminton-002.png" alt="Badminton Portal Screenshot 2">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/badminton-003.png" alt="Badminton Portal Screenshot 3">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/badminton-004.png" alt="Badminton Portal Screenshot 4">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/badminton-005.png" alt="Badminton Portal Screenshot 5">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/badminton-006.png" alt="Badminton Portal Screenshot 6">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/badminton-007.png" alt="Badminton Portal Screenshot 7">
+          </div>
+            <div class="carousel-slide">
+            <img src="images/badminton-008.png" alt="Badminton Portal Screenshot 8">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/badminton-009.png" alt="Badminton Portal Screenshot 9">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/badminton-010.png" alt="Badminton Portal Screenshot 10">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/badminton-011.png" alt="Badminton Portal Screenshot 11">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/badminton-012.png" alt="Badminton Portal Screenshot 12">
+          </div>
+        </div>
+        <button class="carousel-prev" onclick="changeSlide(this, -1)">&lsaquo;</button>
+        <button class="carousel-next" onclick="changeSlide(this, 1)">&rsaquo;</button>
+        <div class="carousel-dots">
+          <span class="dot active" onclick="currentSlide(this, 1)"></span>
+          <span class="dot" onclick="currentSlide(this, 2)"></span>
+          <span class="dot" onclick="currentSlide(this, 3)"></span>
+          <span class="dot" onclick="currentSlide(this, 4)"></span>
+          <span class="dot" onclick="currentSlide(this, 5)"></span>
+          <span class="dot" onclick="currentSlide(this, 6)"></span>
+          <span class="dot" onclick="currentSlide(this, 7)"></span>
+          <span class="dot" onclick="currentSlide(this, 8)"></span>
+          <span class="dot" onclick="currentSlide(this, 9)"></span>
+          <span class="dot" onclick="currentSlide(this, 10)"></span>
+          <span class="dot" onclick="currentSlide(this, 11)"></span>
+          <span class="dot" onclick="currentSlide(this, 12)"></span>
+        </div>
+      </div>
+      <div class="project-overlay">
+        <div class="project-buttons">
+          <button class="project-details-btn" onclick="openModal('badmintonPortalModal')">See Details</button>
+          <button class="project-inspect-btn" onclick="openProjectLightbox(this)">Inspect Images</button>
+        </div>
+      </div>
+      <h3 class="project-title">Bataan Badminton Management Portal</h3>
+    </div>
+
+    <!-- Project: Streamely - Free Streaming App (moved to first) -->
+    <div class="project-card">
+      <div class="project-carousel">
+        <div class="carousel-container portrait-container">
+          <div class="carousel-slide active portrait-slide">
+            <img src="images/streamely-screenshot-1.jpg" alt="Streamely App Screenshot 1">
+            <img src="images/streamely-screenshot-2.jpg" alt="Streamely App Screenshot 2">
+            <img src="images/streamely-screenshot-3.jpg" alt="Streamely App Screenshot 3">
+          </div>  
+        </div> 
+        <button class="carousel-prev" onclick="changeSlide(this, -1)">&lsaquo;</button>
+        <button class="carousel-next" onclick="changeSlide(this, 1)">&rsaquo;</button>
+        <div class="carousel-dots">
+          <span class="dot active" onclick="currentSlide(this, 1)"></span>
+        </div>
+      </div>
+      <div class="project-overlay">
+        <div class="project-buttons">
+          <button class="project-details-btn" onclick="openModal('streamelyModal')">See Details</button>
+          <button class="project-inspect-btn" onclick="openProjectLightbox(this)">Inspect Images</button>
+        </div>
+      </div>
+      <h3 class="project-title">Streamely - Free Streaming App</h3>
+    </div>
+
+    <!-- Project: ResQ Legacy - Disaster Response Simulation Game -->
+    <div class="project-card">
+      <div class="project-carousel">
+        <div class="carousel-container">
+          <div class="carousel-slide active">
+            <img src="images/resq-legacy-001.jpg" alt="ResQ Legacy Screenshot 1">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/resq-legacy-002.jpg" alt="ResQ Legacy Screenshot 2">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/resq-legacy-003.jpg" alt="ResQ Legacy Screenshot 3">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/resq-legacy-004.jpg" alt="ResQ Legacy Screenshot 4">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/resq-legacy-005.jpg" alt="ResQ Legacy Screenshot 5">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/resq-legacy-006.jpg" alt="ResQ Legacy Screenshot 6">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/resq-legacy-007.jpg" alt="ResQ Legacy Screenshot 7">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/resq-legacy-008.jpg" alt="ResQ Legacy Screenshot 8">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/resq-legacy-009.jpg" alt="ResQ Legacy Screenshot 9">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/resq-legacy-010.jpg" alt="ResQ Legacy Screenshot 10">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/resq-legacy-011.jpg" alt="ResQ Legacy Screenshot 11">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/resq-legacy-012.jpg" alt="ResQ Legacy Screenshot 12">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/resq-legacy-013.jpg" alt="ResQ Legacy Screenshot 13">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/resq-legacy-014.jpg" alt="ResQ Legacy Screenshot 14">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/resq-legacy-015.jpg" alt="ResQ Legacy Screenshot 15">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/resq-legacy-016.jpg" alt="ResQ Legacy Screenshot 16">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/resq-legacy-017.jpg" alt="ResQ Legacy Screenshot 17">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/resq-legacy-018.jpg" alt="ResQ Legacy Screenshot 18">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/resq-legacy-019.jpg" alt="ResQ Legacy Screenshot 19">
+          </div>
+        </div>
+        <button class="carousel-prev" onclick="changeSlide(this, -1)">&lsaquo;</button>
+        <button class="carousel-next" onclick="changeSlide(this, 1)">&rsaquo;</button>
+        <div class="carousel-dots">
+          <span class="dot active" onclick="currentSlide(this, 1)"></span>
+          <span class="dot" onclick="currentSlide(this, 2)"></span>
+          <span class="dot" onclick="currentSlide(this, 3)"></span>
+          <span class="dot" onclick="currentSlide(this, 4)"></span>
+          <span class="dot" onclick="currentSlide(this, 5)"></span>
+          <span class="dot" onclick="currentSlide(this, 6)"></span>
+          <span class="dot" onclick="currentSlide(this, 7)"></span>
+          <span class="dot" onclick="currentSlide(this, 8)"></span>
+          <span class="dot" onclick="currentSlide(this, 9)"></span>
+          <span class="dot" onclick="currentSlide(this, 10)"></span>
+          <span class="dot" onclick="currentSlide(this, 11)"></span>
+          <span class="dot" onclick="currentSlide(this, 12)"></span>
+          <span class="dot" onclick="currentSlide(this, 13)"></span>
+          <span class="dot" onclick="currentSlide(this, 14)"></span>
+          <span class="dot" onclick="currentSlide(this, 15)"></span>
+          <span class="dot" onclick="currentSlide(this, 16)"></span>
+          <span class="dot" onclick="currentSlide(this, 17)"></span>
+          <span class="dot" onclick="currentSlide(this, 18)"></span>
+          <span class="dot" onclick="currentSlide(this, 19)"></span>
+        </div>
+      </div>
+      <div class="project-overlay">
+        <div class="project-buttons">
+          <button class="project-details-btn" onclick="openModal('resqLegacyModal')">See Details</button>
+          <button class="project-inspect-btn" onclick="openProjectLightbox(this)">Inspect Images</button>
+        </div>
+      </div>
+      <h3 class="project-title">ResQ Legacy – Disaster Response Simulation</h3>
+    </div>
+
+    <!-- Project 1: BookHaven -->
+    <div class="project-card">
+      <div class="project-carousel">
+        <div class="carousel-container">
+          <div class="carousel-slide active">
+            <img src="images/b1.png" alt="BookHaven Screenshot 1">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/b2.png" alt="BookHaven Screenshot 2">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/b3.png" alt="BookHaven Screenshot 3">
+          </div>
+        </div>
+        <button class="carousel-prev" onclick="changeSlide(this, -1)">&lsaquo;</button>
+        <button class="carousel-next" onclick="changeSlide(this, 1)">&rsaquo;</button>
+        <div class="carousel-dots">
+          <span class="dot active" onclick="currentSlide(this, 1)"></span>
+          <span class="dot" onclick="currentSlide(this, 2)"></span>
+          <span class="dot" onclick="currentSlide(this, 3)"></span>
+        </div>
+      </div>
+      <div class="project-overlay">
+        <div class="project-buttons">
+          <button class="project-details-btn" onclick="openModal('bookhavenModal')">See Details</button>
+          <button class="project-inspect-btn" onclick="openProjectLightbox(this)">Inspect Images</button>
+        </div>
+      </div>
+      <h3 class="project-title">BookHaven: Online Book Store</h3>
+    </div>
+
+    <!-- Project 2: Pizza Ordering App -->
+    <div class="project-card">
+      <div class="project-carousel">
+        <div class="carousel-container">
+          <div class="carousel-slide active">
+            <img src="images/p1.png" alt="Pizza App Screenshot 1">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/p2.png" alt="Pizza App Screenshot 2">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/p3.png" alt="Pizza App Screenshot 3">
+          </div>
+        </div>
+        <button class="carousel-prev" onclick="changeSlide(this, -1)">&lsaquo;</button>
+        <button class="carousel-next" onclick="changeSlide(this, 1)">&rsaquo;</button>
+        <div class="carousel-dots">
+          <span class="dot active" onclick="currentSlide(this, 1)"></span>
+          <span class="dot" onclick="currentSlide(this, 2)"></span>
+          <span class="dot" onclick="currentSlide(this, 3)"></span>
+        </div>
+      </div>
+      <div class="project-overlay">
+        <button class="project-details-btn" onclick="openModal('pizzaModal')">See Details</button>
+        <button class="project-inspect-btn" onclick="openProjectLightbox(this)">Inspect Images</button>
+      </div>
+      <h3 class="project-title">Pizza Ordering App</h3>
+    </div>
+
+    <!-- Project 3: Weather App -->
+    <div class="project-card">
+      <div class="project-carousel">
+        <div class="carousel-container">
+          <div class="carousel-slide active">
+            <img src="images/w1.png" alt="Weather App Screenshot 1">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/w1.png" alt="Weather App Screenshot 2">
+          </div>
+        </div>
+        <button class="carousel-prev" onclick="changeSlide(this, -1)">&lsaquo;</button>
+        <button class="carousel-next" onclick="changeSlide(this, 1)">&rsaquo;</button>
+        <div class="carousel-dots">
+          <span class="dot active" onclick="currentSlide(this, 1)"></span>
+          <span class="dot" onclick="currentSlide(this, 2)"></span>
+        </div>
+      </div>
+      <div class="project-overlay">
+        <button class="project-details-btn" onclick="openModal('weatherModal')">See Details</button>
+        <button class="project-inspect-btn" onclick="openProjectLightbox(this)">Inspect Images</button>
+      </div>
+      <h3 class="project-title">Weather App</h3>
+    </div>
+    
+  <!-- Project 6: Simple Maze Game -->
+    <div class="project-card">
+      <div class="project-carousel">
+        <div class="carousel-container">
+          <div class="carousel-slide active">
+            <img src="images/maze-game-screenshot.png" alt="Simple Maze Game Screenshot">
+          </div>
+        </div>
+        <button class="carousel-prev" onclick="changeSlide(this, -1)">&lsaquo;</button>
+        <button class="carousel-next" onclick="changeSlide(this, 1)">&rsaquo;</button>
+        <div class="carousel-dots">
+          <span class="dot active" onclick="currentSlide(this, 1)"></span>
+        </div>
+      </div>
+      <div class="project-overlay">
+        <div class="project-buttons">
+          <button class="project-details-btn" onclick="openModal('mazeGameModal')">See Details</button>
+          <button class="project-inspect-btn" onclick="openProjectLightbox(this)">Inspect Images</button>
+        </div>
+      </div>
+      <h3 class="project-title">Simple Maze Game</h3>
+    </div>
+    
+    <!-- Project 7: Sushi Ordering System -->
+    <div class="project-card">
+      <div class="project-carousel">
+        <div class="carousel-container mixed-orientation-container">
+          <!-- Portrait images -->
+          <div class="carousel-slide active mixed-portrait-slide">
+            <img src="images/sushi-001.jpg" alt="Sushi Ordering System - Receipt">
+          </div>
+          <div class="carousel-slide mixed-portrait-slide">
+            <img src="images/sushi-002.jpg" alt="Sushi Ordering System - Login Screen">
+          </div>
+          <div class="carousel-slide mixed-portrait-slide">
+            <img src="images/sushi-003.jpg" alt="Sushi Ordering System - OTP Verification">
+          </div>
+          <!-- Full-width landscape images -->
+          <div class="carousel-slide mixed-landscape-slide">
+            <img src="images/sushi-004.jpg" alt="Sushi Ordering System - Menu Selection">
+          </div>
+          <div class="carousel-slide mixed-landscape-slide">
+            <img src="images/sushi-005.jpg" alt="Sushi Ordering System - Cart">
+          </div>
+          <div class="carousel-slide mixed-landscape-slide">
+            <img src="images/sushi-006.jpg" alt="Sushi Ordering System - Checkout">
+          </div>
+        </div>
+        <button class="carousel-prev" onclick="changeSlide(this, -1)">&lsaquo;</button>
+        <button class="carousel-next" onclick="changeSlide(this, 1)">&rsaquo;</button>
+        <div class="carousel-dots">
+          <span class="dot active" onclick="currentSlide(this, 1)"></span>
+          <span class="dot" onclick="currentSlide(this, 2)"></span>
+          <span class="dot" onclick="currentSlide(this, 3)"></span>
+          <span class="dot" onclick="currentSlide(this, 4)"></span>
+          <span class="dot" onclick="currentSlide(this, 5)"></span>
+          <span class="dot" onclick="currentSlide(this, 6)"></span>
+        </div>
+      </div>
+      <div class="project-overlay">
+        <div class="project-buttons">
+          <button class="project-details-btn" onclick="openModal('sushiOrderingModal')">See Details</button>
+          <button class="project-inspect-btn" onclick="openProjectLightbox(this)">Inspect Images</button>
+        </div>
+      </div>
+      <h3 class="project-title">Sushi Ordering System</h3>
+    </div>
+
+    <!-- Project 8: YouTube Converter -->
+    <div class="project-card">
+      <div class="project-carousel">
+        <div class="carousel-container">
+          <div class="carousel-slide active">
+            <img src="images/youtube-converter-001.png" alt="YouTube Converter Screenshot 1">
+          </div>
+          <div class="carousel-slide">
+            <img src="images/youtube-converter-002.png" alt="YouTube Converter Screenshot 2">
+          </div>
+        </div>
+        <button class="carousel-prev" onclick="changeSlide(this, -1)">&lsaquo;</button>
+        <button class="carousel-next" onclick="changeSlide(this, 1)">&rsaquo;</button>
+        <div class="carousel-dots">
+          <span class="dot active" onclick="currentSlide(this, 1)"></span>
+          <span class="dot" onclick="currentSlide(this, 2)"></span>
+          <span class="dot" onclick="currentSlide(this, 3)"></span>
+        </div>
+      </div>
+      <div class="project-overlay">
+        <div class="project-buttons">
+          <button class="project-details-btn" onclick="openModal('youtubeConverterModal')">See Details</button>
+          <button class="project-inspect-btn" onclick="openProjectLightbox(this)">Inspect Images</button>
+        </div>
+      </div>
+      <h3 class="project-title">YouTube Converter</h3>
+    </div>
+  </div>
+
+  <!-- Modal: Badminton Reservation System -->
+  <div id="badmintonModal" class="project-modal">
+    <div class="project-modal-content">
+      <span class="project-close" onclick="closeModal('badmintonModal')">&times;</span>
+      <img src="images/sample.jpg" alt="Badminton Reservation System View">
+      <h2>Badminton Reservation System</h2>
+      <p>This system is a web-based platform designed to automate the operations of badminton courts in Bataan. It connects players, coaches, and court owners in one digital environment to simplify court reservations, product purchases, event announcements, and more.</p>
+      <p><strong>Technologies:</strong> 
+        <span class="tag">#HTML</span>
+        <span class="tag">#CSS</span>
+        <span class="tag">#JavaScript</span>
+        <span class="tag">#Node.js</span>
+        <span class="tag">#MongoDB</span>
+      </p>
+      <a href="#" class="project-modal-btn">See Demo</a>
+      <a href="https://github.com/frootyjas/badminton-management-system" target="_blank" rel="noopener" class="project-modal-btn">View GitHub</a>
+    </div>
+  </div>
+
+  <!-- Modal: GradeTrack -->
+  <div id="gradetrackModal" class="project-modal">
+    <div class="project-modal-content">
+      <span class="project-close" onclick="closeModal('gradetrackModal')">&times;</span>
+      <img src="images/sample.jpg" alt="GradeTrack View">
+      <h2>GradeTrack</h2>
+      <p>React-based application for students to securely view their grades online with role-based access.</p>
+      <p><strong>Technologies:</strong> 
+        <span class="tag">#React</span>
+        <span class="tag">#CSS</span>
+      </p>
+      <a href="#" class="project-modal-btn">See Demo</a>
+      <a href="#" class="project-modal-btn">View GitHub</a>
+    </div>
+  </div>
+
+  <!-- Modal: BookHaven -->
+  <div id="bookhavenModal" class="project-modal">
+    <div class="project-modal-content">
+      <span class="project-close" onclick="closeModal('bookhavenModal')">&times;</span>
+      <h2>BookHaven — Desktop Online Bookstore</h2>
+      <p class="project-intro">A Java Swing academic app that recreates an online bookstore: catalog + search, cart with variants, vouchers, checkout, and printable receipts — backed by MySQL and built with MVC/DAO patterns.</p>
+
+      <ul>
+        <li>Catalog with cover thumbnails and real-time search</li>
+        <li>Cart with quantities and type pricing (Hardcover +15%)</li>
+        <li>Voucher codes with validation and discount application</li>
+        <li>Checkout with customer info and multiple payment options</li>
+        <li>Receipt generation and printing</li>
+        <li>User registration, login, and basic profile editing</li>
+      </ul>
+
+      <p><strong>Tech Stack:</strong>
+        <span class="tag">#Java 11</span>
+        <span class="tag">#Swing</span>
+        <span class="tag">#MySQL</span>
+        <span class="tag">#JDBC</span>
+        <span class="tag">#Maven</span>
+        <span class="tag">#NetBeans</span>
+      </p>
+
+      <div class="project-modal-buttons">
+        <a href="https://github.com/elyeandre/bookhaven-Ebookstore" target="_blank" rel="noopener" class="project-modal-btn">View GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Pizza Ordering App -->
+  <div id="pizzaModal" class="project-modal">
+    <div class="project-modal-content">
+      <span class="project-close" onclick="closeModal('pizzaModal')">&times;</span>
+      <h2>Pizza Ordering App</h2>
+      <p class="project-intro">A Windows Forms desktop POS for pizza restaurants covering sales, inventory, role-based access, and order processing with a MySQL backend (XAMPP). Built in C# and structured with MVC, a Data Access Layer, and Repository pattern.</p>
+
+      <p><strong>Highlights:</strong></p>
+      <ul>
+        <li><strong>Sales:</strong> Visual product catalog with images, size options (S/M/L) with dynamic pricing, add-ons, quantity controls, and real-time totals.</li>
+        <li><strong>Inventory:</strong> CRUD for products and ingredients, stock level tracking, price management, and product image handling.</li>
+        <li><strong>Auth & Roles:</strong> Login with Admin/Staff roles, feature access control, and secure session handling.</li>
+        <li><strong>Orders:</strong> Interactive cart, customization, automatic bill/receipt-style summary.</li>
+      </ul>
+
+      <p><strong>Architecture:</strong></p>
+      <ul>
+        <li>MVC separation, centralized Data Access Layer, Repository abstraction, and factory-based DB connection management.</li>
+      </ul>
+
+      <p><strong>Tech Stack:</strong>
+        <span class="tag">#C#</span>
+        <span class="tag">#.NET Framework 4.7.2+</span>
+        <span class="tag">#Windows Forms</span>
+        <span class="tag">#MySQL 8</span>
+        <span class="tag">#MySQL.Data</span>
+        <span class="tag">#Visual Studio</span>
+        <span class="tag">#XAMPP/phpMyAdmin</span>
+      </p>
+
+      <div class="project-modal-buttons">
+        <a href="https://github.com/elyeandre/pizza-ordering-app" target="_blank" rel="noopener" class="project-modal-btn">View GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Weather App -->
+  <div id="weatherModal" class="project-modal">
+    <div class="project-modal-content">
+      <span class="project-close" onclick="closeModal('weatherModal')">&times;</span>
+      <h2>Weather App WinForms</h2>
+      <p class="project-intro">A glassmorphic Windows Forms desktop app with real-time weather via AccuWeather and smart location search powered by OpenStreetMap. Built with MVP architecture and custom UI controls.</p>
+      
+      <p><strong>Highlights:</strong></p>
+      <ul>
+        <li><strong>Current & Details:</strong> Temperature, feels-like, humidity, wind, visibility, dew point, and precipitation.</li>
+        <li><strong>Forecasts:</strong> 12-hour hourly and 5-day daily outlooks with condition icons and rain/snow probability.</li>
+        <li><strong>Location Search:</strong> OSM Nominatim suggestions with full address context and default location on startup.</li>
+        <li><strong>UI:</strong> Custom glassmorphic panels, smooth interactions, and responsive layout.</li>
+      </ul>
+
+      <p><strong>Architecture:</strong></p>
+      <ul>
+        <li>MVP (Model–View–Presenter) with service layer and icon mapping utilities.</li>
+      </ul>
+
+      <p><strong>Tech Stack:</strong> 
+        <span class="tag">#C#</span>
+        <span class="tag">#.NET Framework 4.7.2</span>
+        <span class="tag">#Windows Forms</span>
+        <span class="tag">#AccuWeather API</span>
+        <span class="tag">#OpenStreetMap</span>
+        <span class="tag">#Newtonsoft.Json</span>
+        <span class="tag">#Visual Studio</span>
+      </p>
+
+      <div class="project-modal-buttons">
+        <a href="https://github.com/elyeandre/weather-app-winforms" target="_blank" rel="noopener" class="project-modal-btn">View GitHub</a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- Streamely Modal -->
+<!-- Bataan Badminton Management Portal Modal -->
+<div id="badmintonPortalModal" class="project-modal">
+  <div class="project-modal-content">
+    <span class="project-close" onclick="closeModal('badmintonPortalModal')">&times;</span>
+    <h2>Bataan Badminton Management Portal</h2>
+    <p class="project-intro">Full-stack platform centralizing the badminton community in Bataan: real-time court reservations, multi‑role access (players, coaches, owners, superadmin), social feed & events, e‑commerce shop, and secure PayPal payments — all powered by live Socket.IO updates.</p>
+
+    <p><strong>Core Highlights:</strong></p>
+    <ul>
+      <li>Smart court booking with live availability & conflict prevention</li>
+      <li>Role-based dashboards (Player / Coach / Court Owner / Superadmin)</li>
+      <li>Community feed, events & tournament management</li>
+      <li>E-commerce: products, cart, orders, inventory & PayPal integration</li>
+      <li>Real-time notifications & email (reservations, payments, activity)</li>
+      <li>Secure auth: JWT, OTP email verification, hardened policies</li>
+    </ul>
+
+    <p><strong>Tech Stack:</strong>
+      <span class="tag">#Node.js</span>
+      <span class="tag">#Express.js</span>
+      <span class="tag">#MongoDB</span>
+      <span class="tag">#Socket.IO</span>
+      <span class="tag">#PayPal API</span>
+      <span class="tag">#JWT</span>
+      <span class="tag">#EJS</span>
+      <span class="tag">#Webpack</span>
+      <span class="tag">#Cloudflare R2</span>
+    </p>
+
+    <div class="project-modal-buttons">
+      <a href="http://212.69.85.122:5000/" target="_blank" rel="noopener" class="project-modal-btn">Live Demo</a>
+      <a href="https://github.com/elyeandre/bataan-badminton-portal" target="_blank" rel="noopener" class="project-modal-btn">View GitHub</a>
+    </div>
+  </div>
+</div>
+<div id="streamelyModal" class="project-modal">
+  <div class="project-modal-content">
+    <span class="project-close" onclick="closeModal('streamelyModal')">&times;</span>
+    <h2>Streamely - Free Streaming App</h2>
+    <div class="demo-gif-container">
+      <img src="images/streamely-demo.gif" alt="Streamely Demo" class="portrait-demo-gif">
+    </div>
+    <p>A simple app that allows users to stream movies and TV shows for free directly on their Android devices without ads. Streamely is a streaming app built on top of Cordova, providing a seamless entertainment experience with a clean interface.</p>
+
+    <p><strong>Capabilities:</strong></p>
+    <ul>
+      <li>Ad-free streaming experience</li>
+      <li>Support for subtitles</li>
+      <li>Simple and intuitive interface</li>
+      <li>Easy search functionality for movies and TV shows</li>
+    </ul>
+
+    <p><strong>Technologies Used:</strong> 
+      <span class="tag">#JavaScript</span>
+      <span class="tag">#Cordova</span>
+      <span class="tag">#HTML5</span>
+      <span class="tag">#CSS3</span>
+      <span class="tag">#Android SDK</span>
+    </p>
+
+    <p><strong>Disclaimer:</strong> This app is meant to serve the purpose of education and showcasing the technical abilities that are involved in Cordova as well as Android development.</p>
+
+    <div class="project-modal-buttons">
+      <a href="https://github.com/elyeandre/streamely-native-app" target="_blank" rel="noopener" class="project-modal-btn">Visit Github</a>
+      <a href="https://r2-api.mayor.workers.dev/streamely-latest.apk" download class="project-modal-btn download-btn"><i class="fas fa-download"></i> <span>Download for Android</span></a>
+    </div>
+  </div>
+</div>
+
+<!-- Simple Maze Game Modal -->
+<div id="mazeGameModal" class="project-modal">
+  <div class="project-modal-content">
+    <span class="project-close" onclick="closeModal('mazeGameModal')">&times;</span>
+    <h2>Simple Maze Game</h2>
+    <div class="demo-gif-container">
+      <img src="images/simple-maze-game.gif" alt="Simple Maze Game Demo" class="portrait-demo-gif">
+    </div>
+    <p>A Java-based maze game inspired by Nitrome's "Bad Ice Cream." Players navigate through mazes, collecting fruits while avoiding obstacles. The game features colorful pixel art graphics and challenging level designs.</p>
+
+    <p><strong>Capabilities:</strong></p>
+    <ul>
+      <li>Interactive maze navigation with keyboard controls</li>
+      <li>Fruit collection mechanics with score tracking</li>
+      <li>Time-based challenges</li>
+      <li>Pixel art graphics with smooth animations</li>
+    </ul>
+
+    <p><strong>Technologies Used:</strong> 
+      <span class="tag">#Java</span>
+      <span class="tag">#Swing</span>
+      <span class="tag">#AWT</span>
+      <span class="tag">#Object-Oriented Design</span>
+    </p>
+
+    <div class="project-modal-buttons">
+      <a href="https://github.com/elyeandre/simple-maze-game" target="_blank" rel="noopener" class="project-modal-btn">Visit Github</a>
+      <a href="https://r2-api.mayor.workers.dev/SimpleMazeGame-1.0.exe" download class="project-modal-btn download-btn"><i class="fas fa-download"></i> <span>Download for Windows</span></a>
+    </div>
+  </div>
+</div>
+
+<!-- Modal: Sushi Ordering System -->
+<div id="sushiOrderingModal" class="project-modal">
+  <div class="project-modal-content">
+    <span class="project-close" onclick="closeModal('sushiOrderingModal')">&times;</span>
+    <h2>Sushi Ordering System</h2>
+    <p class="project-intro">A Java Swing desktop ordering system covering the full flow: registration/login, menu browsing with categories, cart and quantity controls, checkout with receipt printing, and SMS OTP confirmations — backed by MySQL.</p>
+
+    <p><strong>Highlights:</strong></p>
+    <ul>
+      <li><strong>Menu:</strong> Interactive catalog with images, categories (Aburi, Ama Ebi, Kani, Tamago, Saki, Maki), and per‑item pricing.</li>
+      <li><strong>Cart & Receipt:</strong> Add/remove items, quantity spinners (1–100), dynamic totals, and professional itemized receipts.</li>
+      <li><strong>Auth & Customers:</strong> Registration and login with validation; customer profiles (name, mobile, address).</li>
+      <li><strong>SMS/OTP:</strong> Order confirmations via SMS and two‑factor OTP verification.</li>
+      <li><strong>UX:</strong> Modern dark theme, rounded panels, loading screens, and friendly error dialogs.</li>
+    </ul>
+
+    <p><strong>Architecture:</strong></p>
+    <ul>
+      <li>MVC with Observer for UI updates and a Singleton DB connection helper.</li>
+    </ul>
+
+    <p><strong>Tech Stack:</strong> 
+      <span class="tag">#Java 8+</span>
+      <span class="tag">#Swing</span>
+      <span class="tag">#MySQL/MariaDB</span>
+      <span class="tag">#JDBC</span>
+      <span class="tag">#Maven</span>
+      <span class="tag">#NetBeans</span>
+      <span class="tag">#SMS / OTP</span>
+    </p>
+
+    <div class="project-modal-buttons">
+      <a href="https://github.com/elyeandre/sushi-ordering-system" target="_blank" rel="noopener" class="project-modal-btn">View GitHub</a>
+    </div>
+  </div>
+</div>
+
+<section id="certification-section">
+  <h1>CERTIFICATES</h1>
+  <div class="certificates-grid">
+    <h4 class="grid-heading">Microsoft Office Specialist</h4>
+    <div class="cert-item">
+      <a href="images/ms-cert-001.jpg" class="lightbox">
+        <img src="images/ms-cert-001.jpg" alt="Microsoft Office Specialist - Excel Associate">
+        <div class="cert-title-overlay">
+          <div class="cert-title">Microsoft Office Specialist</div>
+          <div class="cert-subtitle">Excel Associate</div>
+        </div>
+      </a>
+    </div>
+    <div class="cert-item">
+      <a href="images/ms-cert-002.jpg" class="lightbox">
+        <img src="images/ms-cert-002.jpg" alt="Microsoft Office Specialist - Associate">
+        <div class="cert-title-overlay">
+          <div class="cert-title">Microsoft Office Specialist</div>
+          <div class="cert-subtitle">Associate</div>
+        </div>
+      </a>
+    </div>
+    <div class="cert-item">
+      <a href="images/ms-cert-003.jpg" class="lightbox">
+        <img src="images/ms-cert-003.jpg" alt="Microsoft Office Specialist - Word Associate">
+        <div class="cert-title-overlay">
+          <div class="cert-title">Microsoft Office Specialist</div>
+          <div class="cert-subtitle">Word Associate</div>
+        </div>
+      </a>
+    </div>
+    <div class="cert-item">
+      <a href="images/ms-cert-004.jpg" class="lightbox">
+        <img src="images/ms-cert-004.jpg" alt="Microsoft Office Specialist - PowerPoint Associate">
+        <div class="cert-title-overlay">
+          <div class="cert-title">Microsoft Office Specialist</div>
+          <div class="cert-subtitle">PowerPoint Associate</div>
+        </div>
+      </a>
+    </div>
+
+    <h4 class="grid-heading">Adobe Certified Professional</h4>
+    <div class="cert-item">
+      <a href="images/adobe-cert-001.jpg" class="lightbox">
+        <img src="images/adobe-cert-001.jpg" alt="Adobe Certified Professional - Adobe InDesign">
+        <div class="cert-title-overlay">
+          <div class="cert-title">Adobe Certified Professional</div>
+          <div class="cert-subtitle">Adobe InDesign</div>
+        </div>
+      </a>
+    </div>
+    <div class="cert-item">
+      <a href="images/adobe-cert-002.jpg" class="lightbox">
+        <img src="images/adobe-cert-002.jpg" alt="Adobe Certified Professional - Visual Design">
+        <div class="cert-title-overlay">
+          <div class="cert-title">Adobe Certified Professional</div>
+          <div class="cert-subtitle">Visual Design</div>
+        </div>
+      </a>
+    </div>
+    <div class="cert-item">
+      <a href="images/adobe-cert-003.jpg" class="lightbox">
+        <img src="images/adobe-cert-003.jpg" alt="Adobe Certified Professional - Visual Design using Adobe Photoshop">
+        <div class="cert-title-overlay">
+          <div class="cert-title">Adobe Certified Professional</div>
+          <div class="cert-subtitle">Visual Design using Photoshop</div>
+        </div>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<section id="education-section">
+  <h1>EDUCATION</h1>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-icon school1-icon"></div>
+      <div class="timeline-content">
+        <h2>Bataan Peninsula State University</h2>
+        <span>2022 - 2025</span>
+        <p>Bachelor of Science in Entertainment and Multimedia Computing Major in Game Development</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-icon school2-icon"></div>
+      <div class="timeline-content">
+        <h2>Bataan School of Fisheries - Senior High</h2>
+        <span>2019 - 2021</span>
+        <p>Technical-Vocational-Livelihood (TVL) - ICT Strand<br>With Honors</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-icon school3-icon"></div>
+      <div class="timeline-content">
+        <h2>Bataan School of Fisheries - Junior High</h2>
+        <span>2015 - 2019</span>
+        <p>With Honors</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-icon school4-icon"></div>
+      <div class="timeline-content">
+        <h2>Pablo Roman Elementary School</h2>
+        <span>2014 - 2015</span>
+        <p>Salutatorian</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="lightbox-overlay" onclick="closeCertificateLightbox()">
+  <span class="certificate-close" onclick="closeCertificateLightbox(); event.stopPropagation();">&times;</span>
+  <img id="lightbox-img" src="" alt="Full Certificate View" onclick="event.stopPropagation()">
+</div>
+
+<section id="connect-section">
+  <h1>SEND YOUR FEEDBACK</h1>
+  <p>Feel free to reach out for collaborations, questions, or just to say hello, I’d love to hear from you!</p>
+  <div class="right-panel">
+    <form id="feedbackForm" action="https://formspree.io/f/mwpqglnn" method="POST">
+      <div class="rating">
+        <div class="stars">
+          <i class="fa-regular fa-star" data-value="1"></i>
+          <i class="fa-regular fa-star" data-value="2"></i>
+          <i class="fa-regular fa-star" data-value="3"></i>
+          <i class="fa-regular fa-star" data-value="4"></i>
+          <i class="fa-regular fa-star" data-value="5"></i>
+        </div>
+        <input type="hidden" name="rating" id="rating-value" />
+      </div>
+
+      <input type="email" name="email" id="feedbackEmailInput" placeholder="Email (optional)" />
+      <textarea name="message" id="feedbackMessageInput" placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</section>
+
+<div class="scroll-to-top" id="scrollToTop">
+  <i class="fas fa-arrow-up"></i>
+</div>
+
+
+<footer>
+  <div class="footer-container">
+    <small class="center-text">
+  © <span id="current-year"></span> Jerickson Mayor. All rights reserved.    
+    </small>
+    <small class="right-text">
+      Page visits:
+      <a href="https://www.hitwebcounter.com" target="_blank" rel="noopener">
+        <img src="https://hitwebcounter.com/counter/counter.php?page=20734234&style=0006&nbdigits=4&type=page&initCount=0" 
+             title="Counter Widget" 
+             alt="Visit counter For Websites" />
+      </a>
+    </small>
+  </div>
+</footer>
+
+<!-- Image Lightbox Modal -->
+<div id="lightbox-modal" class="lightbox-modal">
+  <div class="lightbox-content">
+    <span class="lightbox-close">&times;</span>
+    <button class="lightbox-prev">&lsaquo;</button>
+    <button class="lightbox-next">&rsaquo;</button>
+    <img id="lightbox-image" src="" alt="">
+    <div class="lightbox-caption">
+      <span id="lightbox-title"></span>
+      <span id="lightbox-counter"></span>
+    </div>
+  </div>
+</div>
+
+<!-- YouTube Converter Modal -->
+<div id="youtubeConverterModal" class="project-modal">
+  <div class="project-modal-content">
+    <span class="project-close" onclick="closeModal('youtubeConverterModal')">&times;</span>
+    <h2>YouTube Converter</h2>
+    <p>A web application that allows users to convert YouTube videos to MP3 or MP4 format with a simple and intuitive interface. The app provides an easy way to download video and audio content from YouTube.</p>
+
+    <p><strong>Capabilities:</strong></p>
+    <ul>
+      <li>Convert YouTube videos to MP3 (audio) or MP4 (video) formats</li>
+      <li>Extract audio from any YouTube video</li>
+      <li>Support for various video quality options</li>
+      <li>Simple URL input - just paste the YouTube link</li>
+      <li>Instant processing with progress indicator</li>
+      <li>Clean, responsive user interface</li>
+      <li>Multiple simultaneous conversions support</li>
+      <li>Direct download functionality</li>
+    </ul>
+
+    <p><strong>API Integration Learning:</strong></p>
+    <ul>
+      <li>Used Rapid API to integrate with YouTube services</li>
+      <li>Learned to parse complex JSON responses from third-party APIs</li>
+      <li>Implemented error handling for various API response scenarios</li>
+      <li>Gained experience with API rate limiting and optimization</li>
+      <li>Managed authentication and secure API key handling</li>
+    </ul>
+
+    <p><strong>Technologies Used:</strong> 
+      <span class="tag">#JavaScript</span>
+      <span class="tag">#HTML5</span>
+      <span class="tag">#CSS3</span>
+      <span class="tag">#Rapid API</span>
+      <span class="tag">#REST APIs</span>
+    </p>
+
+    <p style="text-align: center;">
+      <a href="https://youtube-converter.pages.dev/" target="_blank" rel="noopener" class="project-modal-btn">View Live Demo</a>
+      <a href="https://github.com/elyeandre/youtube-converter" target="_blank" rel="noopener" class="project-modal-btn">View GitHub</a>
+    </p>
+  </div>
+</div>
+
+<!-- ResQ Legacy Modal -->
+<div id="resqLegacyModal" class="project-modal">
+  <div class="project-modal-content">
+    <span class="project-close" onclick="closeModal('resqLegacyModal')">&times;</span>
+    <h2>ResQ Legacy — Disaster Response Simulation</h2>
+    <div class="demo-gif-container" style="background-color: #0f0f1a; padding: 0; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 0 25px rgba(5, 245, 248, 0.3); width: 100%; max-width: 100%;">
+      <video controls autoplay loop muted style="width: 100%; max-height: 400px; border-radius: 12px; display: block;">
+        <source src="https://r2-api.mayor.workers.dev/rescue-legacy.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <p>
+      ResQ Legacy is a low-poly disaster response simulation game developed in Unreal Engine 5.4. The project utilizes Blueprints (visual scripting) 
+      to implement core gameplay systems and interactions. Built primarily for education and preparedness, it places players in realistic Philippine 
+      hazard scenarios—such as earthquakes and floods—where they learn to assess situations, use emergency response tools, 
+      and make time-critical decisions. While designed for students, it can also support drills and training for professionals.
+    </p>
+    <p>
+      Note: This is a simulation game intended for learning and awareness, not a community extension project.
+    </p>
+    <h3>Story</h3>
+    <p>
+      The game follows the journey of Miguel, whose sister tragically died during a disaster. This personal loss motivates 
+      him to become an emergency responder. His journey drives the mission-based progression—each scenario both challenges player 
+      skill and underlines the importance of preparation, empathy, and community response during disasters.
+    </p>
+    <h3>Capabilities</h3>
+    <ul>
+      <li>Multiple Philippine disaster scenarios (earthquake, floods, etc.) with guided objectives</li>
+      <li>Tools and equipment interaction via Blueprints-driven systems</li>
+      <li>Mission flow designed for classroom or self-paced learning</li>
+      <li>Low-poly art style for better performance and visual clarity</li>
+    </ul>
+    <p><strong>Technologies Used:</strong> 
+      <span class="tag">#Unreal Engine 5.4</span>
+      <span class="tag">#Blueprints</span>
+      <span class="tag">#Blender</span>
+      <span class="tag">#Mixamo</span>
+      <span class="tag">#Low-Poly Art</span>
+    </p>
+    <p style="text-align: center;">
+      For large binaries and source files, please view the project folder on Google Drive:
+    </p>
+    <p style="text-align: center;">
+      <a href="https://drive.google.com/drive/folders/1QMXaelG8DR5tCeksaETWBf6ZwT5w9O_Z?usp=sharing" target="_blank" rel="noopener" class="project-modal-btn">View Source (Google Drive)</a>
+    </p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
