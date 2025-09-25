@@ -57,7 +57,8 @@
       </p>
 
       <div class="button-container">
-        <a href="https://r2-api.mayor.workers.dev/my-resume.pdf" class="downloadresume-btn" download="Jerickson_Mayor_Resume.pdf" target="_blank" rel="noopener"><i class="fas fa-download"></i> Download Resume</a>
+        <!--<a href="#" class="download-btn" id="openModalBtn">My CV</a>-->
+        <a href="#" class="downloadresume-btn" id="openModalBtn">My Resume</a>
       </div>
     </div>
   </div>
@@ -79,7 +80,19 @@
   </div>
 </div>
 
-
+<div id="resumeModal" class="modal">
+  <div class="modal-content">
+    <span class="close resume-close">&times;</span>
+    <h2>Request Resume</h2>
+    <p>Enter your email to receive the resume:</p>
+    <form action="https://formspree.io/f/mwpqglnn" method="POST" id="resumeRequestForm">
+      <input type="email" name="email" id="resumeEmailInput" placeholder="you@example.com" required>
+      <textarea name="message" rows="4" placeholder="Optional message (e.g., why you're requesting the resume)"></textarea>
+      <input type="hidden" name="_subject" value="Resume Request from Portfolio">
+      <button type="submit" id="resumeRequestBtn">Request</button>
+    </form>
+  </div>
+</div>
 
 <section id="skills-section">
   <h1>KNOWLEDGE</h1>

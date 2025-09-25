@@ -67,7 +67,40 @@ function closeLightbox() {
   closeCertificateLightbox();
 }
 
-// Resume Direct Download - No modal needed anymore
+// Resume Modal Logic
+const resumeModal = document.getElementById("resumeModal");
+const resumeOpenBtn = document.querySelector(".downloadresume-btn");
+const resumeCloseBtn = document.querySelector(".resume-close");
+
+if (resumeOpenBtn && resumeModal) {
+  resumeOpenBtn.onclick = () => {
+    resumeModal.style.display = "block";
+    document.body.classList.add('modal-open');
+  };
+}
+
+if (resumeCloseBtn && resumeModal) {
+  resumeCloseBtn.onclick = () => {
+    resumeModal.style.display = "none";
+    document.body.classList.remove('modal-open');
+  };
+}
+
+window.addEventListener("click", (e) => {
+  if (e.target === resumeModal) {
+    resumeModal.style.display = "none";
+    document.body.classList.remove('modal-open');
+  }
+});
+
+// Resume form
+document.getElementById("resumeRequestForm").addEventListener("submit", function (e) {
+  const email = document.getElementById("resumeEmailInput").value;
+  if (!email) {
+    e.preventDefault();
+    return;
+  }
+});
 
 // Contact form handling
 const contactForm = document.getElementById('contactForm');
