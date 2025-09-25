@@ -57,8 +57,7 @@
       </p>
 
       <div class="button-container">
-        <!--<a href="#" class="download-btn" id="openModalBtn">My CV</a>-->
-        <a href="#" class="downloadresume-btn" id="openModalBtn">My Resume</a>
+        <a href="https://r2-api.mayor.workers.dev/my-resume.pdf" class="downloadresume-btn" download="Jerickson_Mayor_Resume.pdf" target="_blank" rel="noopener"><i class="fas fa-download"></i> Download Resume</a>
       </div>
     </div>
   </div>
@@ -80,19 +79,7 @@
   </div>
 </div>
 
-<div id="resumeModal" class="modal">
-  <div class="modal-content">
-    <span class="close resume-close">&times;</span>
-    <h2>Request Resume</h2>
-    <p>Enter your email to receive the resume:</p>
-    <form action="https://formspree.io/f/mwpqglnn" method="POST" id="resumeRequestForm">
-      <input type="email" name="email" id="resumeEmailInput" placeholder="you@example.com" required>
-      <textarea name="message" rows="4" placeholder="Optional message (e.g., why you're requesting the resume)"></textarea>
-      <input type="hidden" name="_subject" value="Resume Request from Portfolio">
-      <button type="submit" id="resumeRequestBtn">Request</button>
-    </form>
-  </div>
-</div>
+
 
 <section id="skills-section">
   <h1>KNOWLEDGE</h1>
@@ -106,15 +93,15 @@
     <div class="skill-card"><i class="devicon-csharp-plain colored"></i> C#</div>
     <div class="skill-card"><i class="devicon-sqlite-plain colored"></i> SQLite</div>
     <div class="skill-card"><i class="devicon-github-original"></i> GitHub</div>
-    <div class="skill-card"><img src="images/xampp.png" class="icon-img" alt="XAMPP"> XAMPP</div>
+    <div class="skill-card"><img data-src="images/xampp.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" class="icon-img lazy" alt="XAMPP"> XAMPP</div>
     <div class="skill-card"><i class="devicon-firebase-plain colored"></i> Firebase</div>
     <div class="skill-card"><i class="devicon-mongodb-plain colored"></i> MongoDB</div>
     <div class="skill-card"><i class="devicon-visualstudio-plain colored"></i> Visual Studio</div>
     <div class="skill-card"><i class="devicon-vscode-plain colored"></i> VS Code</div>
     <div class="skill-card"><i class="devicon-androidstudio-plain colored"></i> Android Studio</div>
-    <div class="skill-card"><img src="images/canva.png" class="icon-img" alt="Canva"> Canva</div>
+    <div class="skill-card"><img data-src="images/canva.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" class="icon-img lazy" alt="Canva"> Canva</div>
     <div class="skill-card"><i class="devicon-figma-plain colored"></i> Figma</div>
-    <div class="skill-card"><img src="images/adobe.png" class="icon-img" alt="Adobe"> Adobe Photoshop</div>
+    <div class="skill-card"><img data-src="images/adobe.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" class="icon-img lazy" alt="Adobe"> Adobe Photoshop</div>
     <div class="skill-card"><i class="devicon-linux-plain "></i> Linux</div>
     <div class="skill-card"><i class="devicon-docker-plain colored"></i> Docker</div>
     <div class="skill-card"><i class="devicon-vim-plain colored" class="icon-img" alt="Vim"></i> Vim</div>
@@ -123,7 +110,7 @@
     <div class="skill-card"><i class="devicon-nodejs-plain colored"></i> Node.js</div>
     <div class="skill-card"><i class="devicon-react-original colored"></i> React</div>
     <div class="skill-card"><i class="devicon-tailwindcss-plain colored"></i> Tailwind CSS</div>
-    <div class="skill-card"><img src="images/cordova.svg" class="icon-img" alt="Cordova"> Cordova</div>
+    <div class="skill-card"><img data-src="images/cordova.svg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" class="icon-img lazy" alt="Cordova"> Cordova</div>
     <div class="skill-card"><i class="devicon-webpack-plain colored"></i> Webpack</div>
     <div class="skill-card"><i class="devicon-googlecloud-plain colored"></i> Google Cloud</div>
     <div class="skill-card"><i class="devicon-amazonwebservices-plain-wordmark colored"></i> AWS</div>
@@ -141,40 +128,40 @@
       <div class="project-carousel">
         <div class="carousel-container">
           <div class="carousel-slide active">
-            <img src="images/badminton-001.png" alt="Badminton Portal Screenshot 1">
+            <img data-src="images/badminton-001.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Badminton Portal Screenshot 1" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/badminton-002.png" alt="Badminton Portal Screenshot 2">
+            <img data-src="images/badminton-002.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Badminton Portal Screenshot 2" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/badminton-003.png" alt="Badminton Portal Screenshot 3">
+            <img data-src="images/badminton-003.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Badminton Portal Screenshot 3" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/badminton-004.png" alt="Badminton Portal Screenshot 4">
+            <img data-src="images/badminton-004.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Badminton Portal Screenshot 4" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/badminton-005.png" alt="Badminton Portal Screenshot 5">
+            <img data-src="images/badminton-005.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Badminton Portal Screenshot 5" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/badminton-006.png" alt="Badminton Portal Screenshot 6">
+            <img data-src="images/badminton-006.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Badminton Portal Screenshot 6" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/badminton-007.png" alt="Badminton Portal Screenshot 7">
+            <img data-src="images/badminton-007.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Badminton Portal Screenshot 7" class="lazy">
           </div>
             <div class="carousel-slide">
-            <img src="images/badminton-008.png" alt="Badminton Portal Screenshot 8">
+            <img data-src="images/badminton-008.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Badminton Portal Screenshot 8" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/badminton-009.png" alt="Badminton Portal Screenshot 9">
+            <img data-src="images/badminton-009.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Badminton Portal Screenshot 9" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/badminton-010.png" alt="Badminton Portal Screenshot 10">
+            <img data-src="images/badminton-010.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Badminton Portal Screenshot 10" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/badminton-011.png" alt="Badminton Portal Screenshot 11">
+            <img data-src="images/badminton-011.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Badminton Portal Screenshot 11" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/badminton-012.png" alt="Badminton Portal Screenshot 12">
+            <img data-src="images/badminton-012.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Badminton Portal Screenshot 12" class="lazy">
           </div>
         </div>
         <button class="carousel-prev" onclick="changeSlide(this, -1)">&lsaquo;</button>
@@ -208,9 +195,9 @@
       <div class="project-carousel">
         <div class="carousel-container portrait-container">
           <div class="carousel-slide active portrait-slide">
-            <img src="images/streamely-screenshot-1.jpg" alt="Streamely App Screenshot 1">
-            <img src="images/streamely-screenshot-2.jpg" alt="Streamely App Screenshot 2">
-            <img src="images/streamely-screenshot-3.jpg" alt="Streamely App Screenshot 3">
+            <img data-src="images/streamely-screenshot-1.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='400'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Streamely App Screenshot 1" class="lazy">
+            <img data-src="images/streamely-screenshot-2.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='400'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Streamely App Screenshot 2" class="lazy">
+            <img data-src="images/streamely-screenshot-3.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='400'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Streamely App Screenshot 3" class="lazy">
           </div>  
         </div> 
         <button class="carousel-prev" onclick="changeSlide(this, -1)">&lsaquo;</button>
@@ -233,61 +220,61 @@
       <div class="project-carousel">
         <div class="carousel-container">
           <div class="carousel-slide active">
-            <img src="images/resq-legacy-001.jpg" alt="ResQ Legacy Screenshot 1">
+            <img data-src="images/resq-legacy-001.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="ResQ Legacy Screenshot 1" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/resq-legacy-002.jpg" alt="ResQ Legacy Screenshot 2">
+            <img data-src="images/resq-legacy-002.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="ResQ Legacy Screenshot 2" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/resq-legacy-003.jpg" alt="ResQ Legacy Screenshot 3">
+            <img data-src="images/resq-legacy-003.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="ResQ Legacy Screenshot 3" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/resq-legacy-004.jpg" alt="ResQ Legacy Screenshot 4">
+            <img data-src="images/resq-legacy-004.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="ResQ Legacy Screenshot 4" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/resq-legacy-005.jpg" alt="ResQ Legacy Screenshot 5">
+            <img data-src="images/resq-legacy-005.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="ResQ Legacy Screenshot 5" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/resq-legacy-006.jpg" alt="ResQ Legacy Screenshot 6">
+            <img data-src="images/resq-legacy-006.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="ResQ Legacy Screenshot 6" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/resq-legacy-007.jpg" alt="ResQ Legacy Screenshot 7">
+            <img data-src="images/resq-legacy-007.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="ResQ Legacy Screenshot 7" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/resq-legacy-008.jpg" alt="ResQ Legacy Screenshot 8">
+            <img data-src="images/resq-legacy-008.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="ResQ Legacy Screenshot 8" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/resq-legacy-009.jpg" alt="ResQ Legacy Screenshot 9">
+            <img data-src="images/resq-legacy-009.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="ResQ Legacy Screenshot 9" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/resq-legacy-010.jpg" alt="ResQ Legacy Screenshot 10">
+            <img data-src="images/resq-legacy-010.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="ResQ Legacy Screenshot 10" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/resq-legacy-011.jpg" alt="ResQ Legacy Screenshot 11">
+            <img data-src="images/resq-legacy-011.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="ResQ Legacy Screenshot 11" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/resq-legacy-012.jpg" alt="ResQ Legacy Screenshot 12">
+            <img data-src="images/resq-legacy-012.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="ResQ Legacy Screenshot 12" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/resq-legacy-013.jpg" alt="ResQ Legacy Screenshot 13">
+            <img data-src="images/resq-legacy-013.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="ResQ Legacy Screenshot 13" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/resq-legacy-014.jpg" alt="ResQ Legacy Screenshot 14">
+            <img data-src="images/resq-legacy-014.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="ResQ Legacy Screenshot 14" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/resq-legacy-015.jpg" alt="ResQ Legacy Screenshot 15">
+            <img data-src="images/resq-legacy-015.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="ResQ Legacy Screenshot 15" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/resq-legacy-016.jpg" alt="ResQ Legacy Screenshot 16">
+            <img data-src="images/resq-legacy-016.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="ResQ Legacy Screenshot 16" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/resq-legacy-017.jpg" alt="ResQ Legacy Screenshot 17">
+            <img data-src="images/resq-legacy-017.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="ResQ Legacy Screenshot 17" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/resq-legacy-018.jpg" alt="ResQ Legacy Screenshot 18">
+            <img data-src="images/resq-legacy-018.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="ResQ Legacy Screenshot 18" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/resq-legacy-019.jpg" alt="ResQ Legacy Screenshot 19">
+            <img data-src="images/resq-legacy-019.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="ResQ Legacy Screenshot 19" class="lazy">
           </div>
         </div>
         <button class="carousel-prev" onclick="changeSlide(this, -1)">&lsaquo;</button>
@@ -328,13 +315,13 @@
       <div class="project-carousel">
         <div class="carousel-container">
           <div class="carousel-slide active">
-            <img src="images/b1.png" alt="BookHaven Screenshot 1">
+            <img data-src="images/b1.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="BookHaven Screenshot 1" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/b2.png" alt="BookHaven Screenshot 2">
+            <img data-src="images/b2.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="BookHaven Screenshot 2" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/b3.png" alt="BookHaven Screenshot 3">
+            <img data-src="images/b3.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="BookHaven Screenshot 3" class="lazy">
           </div>
         </div>
         <button class="carousel-prev" onclick="changeSlide(this, -1)">&lsaquo;</button>
@@ -359,13 +346,13 @@
       <div class="project-carousel">
         <div class="carousel-container">
           <div class="carousel-slide active">
-            <img src="images/p1.png" alt="Pizza App Screenshot 1">
+            <img data-src="images/p1.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Pizza App Screenshot 1" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/p2.png" alt="Pizza App Screenshot 2">
+            <img data-src="images/p2.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Pizza App Screenshot 2" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/p3.png" alt="Pizza App Screenshot 3">
+            <img data-src="images/p3.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Pizza App Screenshot 3" class="lazy">
           </div>
         </div>
         <button class="carousel-prev" onclick="changeSlide(this, -1)">&lsaquo;</button>
@@ -388,10 +375,10 @@
       <div class="project-carousel">
         <div class="carousel-container">
           <div class="carousel-slide active">
-            <img src="images/w1.png" alt="Weather App Screenshot 1">
+            <img data-src="images/w1.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Weather App Screenshot 1" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/w1.png" alt="Weather App Screenshot 2">
+            <img data-src="images/w1.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Weather App Screenshot 2" class="lazy">
           </div>
         </div>
         <button class="carousel-prev" onclick="changeSlide(this, -1)">&lsaquo;</button>
@@ -413,7 +400,7 @@
       <div class="project-carousel">
         <div class="carousel-container">
           <div class="carousel-slide active">
-            <img src="images/maze-game-screenshot.png" alt="Simple Maze Game Screenshot">
+            <img data-src="images/maze-game-screenshot.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Simple Maze Game Screenshot" class="lazy">
           </div>
         </div>
         <button class="carousel-prev" onclick="changeSlide(this, -1)">&lsaquo;</button>
@@ -437,23 +424,23 @@
         <div class="carousel-container mixed-orientation-container">
           <!-- Portrait images -->
           <div class="carousel-slide active mixed-portrait-slide">
-            <img src="images/sushi-001.jpg" alt="Sushi Ordering System - Receipt">
+            <img data-src="images/sushi-001.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Sushi Ordering System - Receipt" class="lazy">
           </div>
           <div class="carousel-slide mixed-portrait-slide">
-            <img src="images/sushi-002.jpg" alt="Sushi Ordering System - Login Screen">
+            <img data-src="images/sushi-002.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Sushi Ordering System - Login Screen" class="lazy">
           </div>
           <div class="carousel-slide mixed-portrait-slide">
-            <img src="images/sushi-003.jpg" alt="Sushi Ordering System - OTP Verification">
+            <img data-src="images/sushi-003.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Sushi Ordering System - OTP Verification" class="lazy">
           </div>
           <!-- Full-width landscape images -->
           <div class="carousel-slide mixed-landscape-slide">
-            <img src="images/sushi-004.jpg" alt="Sushi Ordering System - Menu Selection">
+            <img data-src="images/sushi-004.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Sushi Ordering System - Menu Selection" class="lazy">
           </div>
           <div class="carousel-slide mixed-landscape-slide">
-            <img src="images/sushi-005.jpg" alt="Sushi Ordering System - Cart">
+            <img data-src="images/sushi-005.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Sushi Ordering System - Cart" class="lazy">
           </div>
           <div class="carousel-slide mixed-landscape-slide">
-            <img src="images/sushi-006.jpg" alt="Sushi Ordering System - Checkout">
+            <img data-src="images/sushi-006.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Sushi Ordering System - Checkout" class="lazy">
           </div>
         </div>
         <button class="carousel-prev" onclick="changeSlide(this, -1)">&lsaquo;</button>
@@ -481,10 +468,10 @@
       <div class="project-carousel">
         <div class="carousel-container">
           <div class="carousel-slide active">
-            <img src="images/youtube-converter-001.png" alt="YouTube Converter Screenshot 1">
+            <img data-src="images/youtube-converter-001.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="YouTube Converter Screenshot 1" class="lazy">
           </div>
           <div class="carousel-slide">
-            <img src="images/youtube-converter-002.png" alt="YouTube Converter Screenshot 2">
+            <img data-src="images/youtube-converter-002.png" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="YouTube Converter Screenshot 2" class="lazy">
           </div>
         </div>
         <button class="carousel-prev" onclick="changeSlide(this, -1)">&lsaquo;</button>
@@ -509,7 +496,7 @@
   <div id="badmintonModal" class="project-modal">
     <div class="project-modal-content">
       <span class="project-close" onclick="closeModal('badmintonModal')">&times;</span>
-      <img src="images/sample.jpg" alt="Badminton Reservation System View">
+      <img data-src="images/sample.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Badminton Reservation System View" class="lazy">
       <h2>Badminton Reservation System</h2>
       <p>This system is a web-based platform designed to automate the operations of badminton courts in Bataan. It connects players, coaches, and court owners in one digital environment to simplify court reservations, product purchases, event announcements, and more.</p>
       <p><strong>Technologies:</strong> 
@@ -528,7 +515,7 @@
   <div id="gradetrackModal" class="project-modal">
     <div class="project-modal-content">
       <span class="project-close" onclick="closeModal('gradetrackModal')">&times;</span>
-      <img src="images/sample.jpg" alt="GradeTrack View">
+      <img data-src="images/sample.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="GradeTrack View" class="lazy">
       <h2>GradeTrack</h2>
       <p>React-based application for students to securely view their grades online with role-based access.</p>
       <p><strong>Technologies:</strong> 
@@ -686,7 +673,7 @@
     <span class="project-close" onclick="closeModal('streamelyModal')">&times;</span>
     <h2>Streamely - Free Streaming App</h2>
     <div class="demo-gif-container">
-      <img src="images/streamely-demo.gif" alt="Streamely Demo" class="portrait-demo-gif">
+      <img data-src="images/streamely-demo.gif" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Streamely Demo" class="portrait-demo-gif lazy">
     </div>
     <p>A simple app that allows users to stream movies and TV shows for free directly on their Android devices without ads. Streamely is a streaming app built on top of Cordova, providing a seamless entertainment experience with a clean interface.</p>
 
@@ -721,7 +708,7 @@
     <span class="project-close" onclick="closeModal('mazeGameModal')">&times;</span>
     <h2>Simple Maze Game</h2>
     <div class="demo-gif-container">
-      <img src="images/simple-maze-game.gif" alt="Simple Maze Game Demo" class="portrait-demo-gif">
+      <img data-src="images/simple-maze-game.gif" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Simple Maze Game Demo" class="portrait-demo-gif lazy">
     </div>
     <p>A Java-based maze game inspired by Nitrome's "Bad Ice Cream." Players navigate through mazes, collecting fruits while avoiding obstacles. The game features colorful pixel art graphics and challenging level designs.</p>
 
@@ -790,7 +777,7 @@
     <h4 class="grid-heading">Microsoft Office Specialist</h4>
     <div class="cert-item">
       <a href="images/ms-cert-001.jpg" class="lightbox">
-        <img src="images/ms-cert-001.jpg" alt="Microsoft Office Specialist - Excel Associate">
+        <img data-src="images/ms-cert-001.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Microsoft Office Specialist - Excel Associate" class="lazy">
         <div class="cert-title-overlay">
           <div class="cert-title">Microsoft Office Specialist</div>
           <div class="cert-subtitle">Excel Associate</div>
@@ -799,7 +786,7 @@
     </div>
     <div class="cert-item">
       <a href="images/ms-cert-002.jpg" class="lightbox">
-        <img src="images/ms-cert-002.jpg" alt="Microsoft Office Specialist - Associate">
+        <img data-src="images/ms-cert-002.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Microsoft Office Specialist - Associate" class="lazy">
         <div class="cert-title-overlay">
           <div class="cert-title">Microsoft Office Specialist</div>
           <div class="cert-subtitle">Associate</div>
@@ -808,7 +795,7 @@
     </div>
     <div class="cert-item">
       <a href="images/ms-cert-003.jpg" class="lightbox">
-        <img src="images/ms-cert-003.jpg" alt="Microsoft Office Specialist - Word Associate">
+        <img data-src="images/ms-cert-003.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Microsoft Office Specialist - Word Associate" class="lazy">
         <div class="cert-title-overlay">
           <div class="cert-title">Microsoft Office Specialist</div>
           <div class="cert-subtitle">Word Associate</div>
@@ -817,7 +804,7 @@
     </div>
     <div class="cert-item">
       <a href="images/ms-cert-004.jpg" class="lightbox">
-        <img src="images/ms-cert-004.jpg" alt="Microsoft Office Specialist - PowerPoint Associate">
+        <img data-src="images/ms-cert-004.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Microsoft Office Specialist - PowerPoint Associate" class="lazy">
         <div class="cert-title-overlay">
           <div class="cert-title">Microsoft Office Specialist</div>
           <div class="cert-subtitle">PowerPoint Associate</div>
@@ -828,7 +815,7 @@
     <h4 class="grid-heading">Adobe Certified Professional</h4>
     <div class="cert-item">
       <a href="images/adobe-cert-001.jpg" class="lightbox">
-        <img src="images/adobe-cert-001.jpg" alt="Adobe Certified Professional - Adobe InDesign">
+        <img data-src="images/adobe-cert-001.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Adobe Certified Professional - Adobe InDesign" class="lazy">
         <div class="cert-title-overlay">
           <div class="cert-title">Adobe Certified Professional</div>
           <div class="cert-subtitle">Adobe InDesign</div>
@@ -837,7 +824,7 @@
     </div>
     <div class="cert-item">
       <a href="images/adobe-cert-002.jpg" class="lightbox">
-        <img src="images/adobe-cert-002.jpg" alt="Adobe Certified Professional - Visual Design">
+        <img data-src="images/adobe-cert-002.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Adobe Certified Professional - Visual Design" class="lazy">
         <div class="cert-title-overlay">
           <div class="cert-title">Adobe Certified Professional</div>
           <div class="cert-subtitle">Visual Design</div>
@@ -846,7 +833,7 @@
     </div>
     <div class="cert-item">
       <a href="images/adobe-cert-003.jpg" class="lightbox">
-        <img src="images/adobe-cert-003.jpg" alt="Adobe Certified Professional - Visual Design using Adobe Photoshop">
+        <img data-src="images/adobe-cert-003.jpg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3C/svg%3E" alt="Adobe Certified Professional - Visual Design using Adobe Photoshop" class="lazy">
         <div class="cert-title-overlay">
           <div class="cert-title">Adobe Certified Professional</div>
           <div class="cert-subtitle">Visual Design using Photoshop</div>
@@ -904,25 +891,41 @@
 </div>
 
 <section id="connect-section">
-  <h1>SEND YOUR FEEDBACK</h1>
+  <h1>LET'S WORK TOGETHER</h1>
   <p>Feel free to reach out for collaborations, questions, or just to say hello, I’d love to hear from you!</p>
-  <div class="right-panel">
-    <form id="feedbackForm" action="https://formspree.io/f/mwpqglnn" method="POST">
-      <div class="rating">
-        <div class="stars">
-          <i class="fa-regular fa-star" data-value="1"></i>
-          <i class="fa-regular fa-star" data-value="2"></i>
-          <i class="fa-regular fa-star" data-value="3"></i>
-          <i class="fa-regular fa-star" data-value="4"></i>
-          <i class="fa-regular fa-star" data-value="5"></i>
-        </div>
-        <input type="hidden" name="rating" id="rating-value" />
-      </div>
+  
+  <div class="cta-container">
+    <a href="mailto:jericksonmayor@gmail.com?subject=Let's Work Together&body=Hi Jerickson, I'm interested in discussing a project with you." class="hire-me-btn">
+      <i class="fas fa-handshake"></i>
+      Hire Me
+    </a>
+    <div class="contact-options">
+      <a href="https://www.linkedin.com/in/elyeandre" target="_blank" class="contact-link">
+        <i class="fab fa-linkedin"></i>
+        LinkedIn
+      </a>
+      <a href="https://github.com/elyeandre" target="_blank" class="contact-link">
+        <i class="fab fa-github"></i>
+        GitHub
+      </a>
+    </div>
+  </div>
+  
+  <div class="contact-form-section">
+    <h3>Send me a message</h3>
 
-      <input type="email" name="email" id="feedbackEmailInput" placeholder="Email (optional)" />
-      <textarea name="message" id="feedbackMessageInput" placeholder="Message" required></textarea>
-      <button type="submit">Send</button>
+  <div class="right-panel">
+    <form id="contactForm" action="https://formspree.io/f/mwpqglnn" method="POST">
+      <input type="text" name="name" id="contactNameInput" placeholder="Your Name" required />
+      <input type="email" name="email" id="contactEmailInput" placeholder="Your Email" required />
+      <input type="text" name="subject" id="contactSubjectInput" placeholder="Subject" required />
+      <textarea name="message" id="contactMessageInput" placeholder="Tell me about your project or how I can help you..." required></textarea>
+      <button type="submit">
+        <i class="fas fa-paper-plane"></i>
+        Send Message
+      </button>
     </form>
+  </div>
   </div>
 </section>
 
@@ -939,7 +942,7 @@
     <small class="right-text">
       Page visits:
       <a href="https://www.hitwebcounter.com" target="_blank" rel="noopener">
-        <img src="https://hitwebcounter.com/counter/counter.php?page=20734234&style=0006&nbdigits=4&type=page&initCount=0" 
+        <img src="https://hitwebcounter.com/counter/counter.php?page=21441464&style=0001&nbdigits=5&type=ip&initCount=0" 
              title="Counter Widget" 
              alt="Visit counter For Websites" />
       </a>

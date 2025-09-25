@@ -67,84 +67,68 @@ function closeLightbox() {
   closeCertificateLightbox();
 }
 
-// Resume Modal Logic
-const resumeModal = document.getElementById("resumeModal");
-const resumeOpenBtn = document.querySelector(".downloadresume-btn");
-const resumeCloseBtn = document.querySelector(".resume-close");
+// Resume Direct Download - No modal needed anymore
 
-if (resumeOpenBtn && resumeModal) {
-  resumeOpenBtn.onclick = () => {
-    resumeModal.style.display = "block";
-    document.body.classList.add('modal-open');
-  };
-}
+// Contact form handling
+const contactForm = document.getElementById('contactForm');
 
-if (resumeCloseBtn && resumeModal) {
-  resumeCloseBtn.onclick = () => {
-    resumeModal.style.display = "none";
-    document.body.classList.remove('modal-open');
-  };
-}
+if (contactForm) {
+  contactForm.addEventListener('submit', function (e) {
+    const name = document.getElementById('contactNameInput').value.trim();
+    const email = document.getElementById('contactEmailInput').value.trim();
+    const subject = document.getElementById('contactSubjectInput').value.trim();
+    const message = document.getElementById('contactMessageInput').value.trim();
 
-window.addEventListener("click", (e) => {
-  if (e.target === resumeModal) {
-    resumeModal.style.display = "none";
-    document.body.classList.remove('modal-open');
-  }
-});
-
-// Resume form
-document.getElementById("resumeRequestForm").addEventListener("submit", function (e) {
-  const email = document.getElementById("resumeEmailInput").value;
-  if (!email) {
-    e.preventDefault();
-    return;
-  }
-});
-
-//feedback
-const stars = document.querySelectorAll('.stars i');
-const ratingValue = document.getElementById('rating-value');
-
-stars.forEach(star => {
-  star.addEventListener('click', () => {
-    const value = star.getAttribute('data-value');
-    ratingValue.value = value;
-
-    stars.forEach(s => {
-      s.classList.remove('fa-solid');
-      s.classList.add('fa-regular');
-    });
-
-    for (let i = 0; i < value; i++) {
-      stars[i].classList.remove('fa-regular');
-      stars[i].classList.add('fa-solid');
+    if (!name || !email || !subject || !message) {
+      e.preventDefault();
+      alert('Please fill in all required fields.');
+      return;
     }
-  });
-});
-
-const feedbackForm = document.getElementById('feedbackForm');
-
-feedbackForm.addEventListener('submit', function (e) {
-  const ratingValue = document.getElementById('rating-value').value;
-  const message = document.getElementById('feedbackMessageInput').value.trim();
-
-  if (!ratingValue || !message) {
-    e.preventDefault();
-    alert('Please provide a rating and a message.');
-    return;
-  }
-
-  setTimeout(() => {
-    stars.forEach(s => {
-      s.classList.remove('fa-solid');
-      s.classList.add('fa-regular');
-    });
     
-    feedbackForm.reset();
-    document.getElementById('rating-value').value = '';
-  }, 300);
+    // Show success message after form submission
+    setTimeout(() => {
+      contactForm.reset();
+      alert('Thank you for your message! I\'ll get back to you soon.');
+    }, 1000);
+  });
+}
 
+// Lazy loading for images
+document.addEventListener('DOMContentLoaded', function() {
+  // Create intersection observer for lazy loading
+  const imageObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const img = entry.target;
+        if (img.dataset.src) {
+          img.src = img.dataset.src;
+          img.classList.remove('lazy');
+          img.classList.add('loaded');
+          observer.unobserve(img);
+        }
+      }
+    });
+  }, {
+    root: null,
+    rootMargin: '50px',
+    threshold: 0.1
+  });
+
+  // Observe all lazy images
+  const lazyImages = document.querySelectorAll('img[data-src]');
+  lazyImages.forEach(img => {
+    imageObserver.observe(img);
+  });
+
+  // Fallback for browsers that don't support Intersection Observer
+  if (!('IntersectionObserver' in window)) {
+    const lazyImages = document.querySelectorAll('img[data-src]');
+    lazyImages.forEach(img => {
+      img.src = img.dataset.src;
+      img.classList.remove('lazy');
+      img.classList.add('loaded');
+    });
+  }
 });
 
  function openModal(id) {
